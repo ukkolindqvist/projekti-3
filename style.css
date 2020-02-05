@@ -1,3 +1,7 @@
+/*
+Import required fonts
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
@@ -5,7 +9,7 @@
 body, html {
     height: 100%;
   }
-  
+
 
 
 
@@ -27,10 +31,10 @@ body, html {
 .pimg2 {
     /* The image used */
     background-image: url("minecraftkuva.jpg");
-  
+
     /* Set a specific height */
     height: 500px;
-  
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -57,10 +61,10 @@ body, html {
 .pimg4 {
     /* The image used */
     background-image: url("cdkuva.jpg");
-  
+
     /* Set a specific height */
     height: 500px;
-  
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -68,41 +72,40 @@ body, html {
     background-size: cover;
   }
 
+/* Add a darkened background to the text inside the images */
 .border{
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.7); /* Change the color of the background to black with 70% opacity*/
+    border-radius: 15px; /* Make the corners round */
 }
 
+/* Section where the information about hobbies is in */
 .section{
-    padding-top: 10px;
-    background-color: #454653;
-    height: 25%;
-    max-width: 100%;
+    padding-top: 10px; /* Add padding on the top to make it more aligned vertically */
+    background-color: #454653; /* Change the background color of the selection to dark grey */
+    height: 25%; /* Make the height of the section 25% of the screen height */
+    max-width: 100%; /* Define max width so it doesn't stretch outside of the screen */
 }
 
-
-h3{
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
+/* Title inside of section */
 h1{
-    text-align: center;
-    font-size: 60px;
-    color: rgb(216, 216, 216);
-    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center; /* Make the text aligned to the center horizontally */
+    font-size: 60px; /* Change the size of the text to 60px */
+    color: rgb(216, 216, 216); /* Change the color of the text to bit darker white/super light gray */
+    font-family: 'Source Sans Pro', sans-serif; /* Change the default font to something nicer */
 
 }
 
+/* Description of sections */
 p{
-    text-align: center;
-    font-size: 20px;
-    color: rgb(216, 216, 216);
-    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center; /* Make the text aligned to the center horizontally */
+    font-size: 20px; /* Change the size of the text to 20px */
+    color: rgb(216, 216, 216); /* Change the color of the text to bit darker white/super light gray */
+    font-family: 'Source Sans Pro', sans-serif; /* Change the default font to something nicer */
 }
 
 .ptext{
-    padding-top: 90px;
-    text-align: center;
-    font-size: 80px;
-    color: white;
+    padding-top: 90px; /* Add padding to the top so the text would be more down vertically*/
+    text-align: center; /* Make the text aligned to the center horizontally */
+    font-size: 80px; /* Change the size of the text to 90px */
+    color: white; /* Change the color to white */
 }

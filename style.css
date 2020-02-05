@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
 
 body, html {
     height: 100%;
@@ -9,7 +11,7 @@ body, html {
 
 .pimg1{
     /* The image used */
-    background-image: url("gamingsetup.jpg");
+    background-image: url("gamingsetupimage.jpg");
 
     /* Full height */
     height: 100%;
@@ -68,32 +70,34 @@ body, html {
 
 .border{
     background-color: rgba(0, 0, 0, 0.7);
-    display:inline-block;
+    border-radius: 25px;
 }
 
 .section{
-    padding: 50px;
+    padding-top: 10px;
     background-color: #454653;
-    height: 20%;
+    height: 25%;
     max-width: 100%;
 }
 
-h2{
-    text-align: center;
-    font-family: 'Zhi Mang Xing';
-    font-size: 90px;
+
+h3{
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1{
     text-align: center;
     font-size: 60px;
     color: rgb(216, 216, 216);
+    font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 p{
     text-align: center;
     font-size: 20px;
     color: rgb(216, 216, 216);
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .ptext{
